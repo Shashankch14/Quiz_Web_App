@@ -1,0 +1,31 @@
+#highScoresList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+  }
+  .containerH{
+    
+      position: absolute;
+      width: 30%;
+      min-width: 80px;
+      transform: translate(-50%,-50%);
+      top: 30%;
+      left: 50%;
+      background-color: #FEFBF6;
+      padding: 50px 10px;
+      border-radius: 5px;
+      display: grid; 
+      justify-items: center;
+      font-family: 'Poppins',sans-serif;
+      display: contents;
+      
+    
+  }
+  .high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .high-score:hover {
+    transform: scale(1.025);
+  }
